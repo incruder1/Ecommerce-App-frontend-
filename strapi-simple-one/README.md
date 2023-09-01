@@ -5,7 +5,17 @@ Strapi comes with a full featured [Command Line Interface](https://docs.strapi.i
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
-
+**.env file** contain 
+```
+ HOST
+PORT=1337
+APP_KEYS=
+API_TOKEN_SALT
+ADMIN_JWT_SECRET
+JWT_SECRET=
+STRIPE_KEY=
+CLIENT_URL=http://localhost:3000
+```
 ```
 npm run develop
 # or
